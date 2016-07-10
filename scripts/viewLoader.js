@@ -9,7 +9,7 @@ function loadView(view) {
   icon.src = "http://i.cubeupload.com/EKlJJO.png";
   document.body.appendChild(icon);
 
-  var title = document.createelement("img");
+  var title = document.createElement("img");
   title.src = "http://i.cubeupload.com/ZEbcCS.png";
   document.body.appendChild(title);
   
