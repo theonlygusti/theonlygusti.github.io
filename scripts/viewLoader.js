@@ -12,6 +12,6 @@ function loadView(view) {
   var title = document.createElement("img");
   title.src = "http://i.cubeupload.com/ZEbcCS.png";
   document.body.appendChild(title);
-  
+
   document.body.setAttribute("style", "background-image:url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)");
 }
