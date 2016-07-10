@@ -6,8 +6,10 @@
 
 function loadView(view) {
   var icon = document.createElement("img");
-  icon.src = "http://i.cubeupload.com/EKlJJO.png";
+  icon.src = "http://i.cubeupload.com/I2B45d.png";
   document.body.appendChild(icon);
+
+  document.body.appendChild(document.createElement("br"));
 
   var title = document.createElement("img");
   title.src = "http://i.cubeupload.com/ZEbcCS.png";
