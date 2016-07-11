@@ -9862,7 +9862,7 @@ jQuery.fn.extend( {
 	}
 } );
 
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	if (window.location.hash.indexOf("#minecraft") == 0) {
 		// Load minecraft view
 		var icon = document.createElement("img");
