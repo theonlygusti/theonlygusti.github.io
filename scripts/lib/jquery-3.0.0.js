@@ -9109,7 +9109,7 @@ var __status = function(){
 			title.src = "http://i.cubeupload.com/ZEbcCS.png";
 			document.body.appendChild(title);
 
-			document.body.setAttribute("style", "background-image:url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)");
+			$(body).css("background-image", "url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)").css("background-position", "center top");
 		}
 	});
 	return false;
