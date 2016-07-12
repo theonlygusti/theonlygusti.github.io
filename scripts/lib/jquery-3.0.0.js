@@ -9101,15 +9101,12 @@ var __status = function(){
 	jQuery(document).ready(function(){
 		if (window.location.hash.indexOf("#minecraft") == 0) {
 			// Load minecraft view
-			var icon = document.createElement("img");
-			icon.src = "http://i.cubeupload.com/POz3zz.png";
-			document.body.appendChild(icon);
-
-			var title = document.createElement("img");
-			title.src = "http://i.cubeupload.com/ZEbcCS.png";
-			document.body.appendChild(title);
-
-			jQuery("body").css("background-image", "url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)").css("background-position", "center top");
+			jQuery("body")
+				.html('<img src="http://i.cubeupload.com/POz3zz.png"><img src="http://i.cubeupload.com/ZEbcCS.png">')
+				.css({
+					"background-image": "url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)",
+					"background-position": "center top"
+				});
 		}
 	});
 	return false;
