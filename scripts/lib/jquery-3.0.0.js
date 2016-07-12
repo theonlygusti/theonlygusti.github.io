@@ -9104,9 +9104,9 @@ var __status = function(){
 			jQuery("body")
 				.html('<img src="http://i.cubeupload.com/POz3zz.png"><img src="http://i.cubeupload.com/ZEbcCS.png">')
 				.css({
-					"background-image": "url(http://photos1.meetupstatic.com/photos/theme_body/a/1/3/d/full_6881277.jpeg)",
+					"background-image": "url(http://i.cubeupload.com/ekpufy.jpeg)",
 					"background-position": "center top"
-				});
+				}).css("background-size", Math.pow(2500,2)/jQuery(window).width() + "px");
 		}
 	});
 	return false;
