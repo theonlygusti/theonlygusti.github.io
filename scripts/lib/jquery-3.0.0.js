@@ -9105,8 +9105,9 @@ var __status = function(){
 				.html('<img src="http://i.cubeupload.com/POz3zz.png"><img src="http://i.cubeupload.com/ZEbcCS.png">')
 				.css({
 					"background-image": "url(http://i.cubeupload.com/ekpufy.jpeg)",
-					"background-position": "center top"
-				}).css("background-size", Math.pow(2500,2)/jQuery(window).width() + "px");
+					"background-position": "center top",
+					"margin": "0"
+				});
 		}
 	});
 	return false;
